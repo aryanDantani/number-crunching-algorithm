@@ -1,1 +1,1 @@
-# number-crunching-algorithm
+# Number-Crunching-Algorithm
