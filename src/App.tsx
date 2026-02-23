@@ -64,14 +64,12 @@ function App() {
   return (
     <>
       <h2>The shortest subarray</h2>
-
       <div className='form-container'>
         <input className='numbers-input' type="text" placeholder="Add comma separated numbers" value={arrayInput} onChange={handleArrayChange} onBlur={handleArrayBlur} />
         <input className="target-input" placeholder="Enter target sum" value={targetSum} onChange={handleTargetChange} />
         <button onClick={findShortestSubarray}>Find</button>
       </div>
       <div>
-
         <div>
           {/* Result:
           {arrayInput?.split(',').map((num, index) => (
@@ -79,7 +77,6 @@ function App() {
               <p style={{ backgroundColor: allElementsSame([Number(num)]) ? 'green' : 'red' }}>{num}</p>
             </div>
           ))} */}
-
           Result:
           {result?.map((num, index) => (
             <div key={index} className='result-item'>
@@ -87,7 +84,6 @@ function App() {
             </div>
           ))}
         </div>
-
       </div>
     </>
   )
